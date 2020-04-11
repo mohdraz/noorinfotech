@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: lightblue;
+  box-sizing: border-box;
+}
+
+.site-container {
+  max-width: 1200px;
+  width: 100%;
+  min-height: 800px;
+  height: 100%;
+  padding: 1rem 2rem;
+  margin: auto;
+  border: 2px solid red;
+  background-color: white;
+}

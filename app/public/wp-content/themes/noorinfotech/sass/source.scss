@@ -1,0 +1,16 @@
+/*!
+Theme Name: Noor Infotech
+Theme URI: https://noorinfotech.com/
+Author: Mohd Raza
+Version: 1.0
+*/
+
+// abstract
+@import "./abstracts//variables.scss";
+
+// Global
+@import "./base/reset.scss";
+@import "./base/global.scss";
+
+// Layout
+@import "./layout/header.scss";
